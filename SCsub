@@ -1,0 +1,4 @@
+Import('env')
+
+env_moduletest = env.Clone()
+env_moduletest.add_source_files(env.modules_sources, "*.cpp");
